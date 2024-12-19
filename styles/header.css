@@ -1,0 +1,65 @@
+.header {
+    background-color: #F7A01B;
+    height: 42px;
+}
+.top-bar {
+    padding: 0 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    white-space: nowrap; /* Предотвращает перенос текста */
+    overflow: hidden; 
+}
+.top-bar h1 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+}
+.address, .shipping {
+    text-overflow: ellipsis; /* Добавляет ... в конце */
+    overflow: hidden;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 20px; /* Отступ между элементами */
+}
+
+/* Медиа-запросы для адаптивности */
+@media (max-width: 768px) {
+    .address {
+        max-width: 40%; /* Ограничиваем ширину адреса */
+    }
+    
+    .shipping {
+        max-width: 60%; /* Больше места для информации о доставке */
+    }
+}
+
+@media (max-width: 576px) {
+    .address {
+        max-width: 120px; /* Фиксированная максимальная ширина для адреса */
+    }
+    
+    .shipping {
+        flex: 1; /* Занимает оставшееся пространство */
+    }
+}
+
+/* Для очень маленьких экранов */
+@media (max-width: 400px) {
+    .top-bar {
+        font-size: 12px; /* Уменьшаем размер шрифта */
+        padding: 8px 10px; /* Уменьшаем отступы */
+    }
+    
+    .address {
+        max-width: 100px;
+    }
+}
