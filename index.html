@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/hero.css">
     <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/consultation.css">
+    <link rel="stylesheet" href="styles/product.css">
+    <link rel="stylesheet" href="styles/shop.css">
+    <script src="scripts/video-player.js"></script>
+    <script src="scripts/product-slider.js"></script>
     <title>Sport nutrition</title>
 </head>
 
@@ -104,6 +109,93 @@
                             </p>
                     </div>
                 </div>
+                <div class="about-video">
+                    <div class="about-video-top">
+                        <img class="about-video-top-bg" src="assets/about/bg-dots.svg" alt="about-video-bg">
+                    </div>
+                    <div class="about-video-content">
+                        <img class="about-video-bg" src="assets/about/video-bg.png" alt="video-bg">
+                        <button class="about-video-play">
+                            <img src="assets/about/video-play.svg" alt="play">
+                        </button>
+                        <iframe class="about-video-player" src="https://www.youtube.com/embed/22xiS_hjM7I"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="about-video-bottom">
+                        <img class="about-video-bottom-bg" src="assets/about/bg-dots2.svg" alt="about-video-bg">
+                    </div>
+                </div>
+            </section>
+            <section class="consultation">
+                <div class="consultation-content">
+                    <img class="consultation-img" src="assets/consultation/consultation.png" alt="consultation-img">
+                    <h1 class="consultation-title">Need a fitness Consultant?</h1>
+                    <button class="consultation-button">
+                        <span class="consultation-button-text">BOOK A FREE STRATEGY CALL</span>
+                    </button>
+                </div>
+            </section>
+            <section class="product">
+                <img class="product-bg" src="assets/product/product-bg.svg" alt="product-bg">
+                <div class="product-top">
+                    <h1 class="product-title">PRODUCT</h1>
+                    <h2 class="product-subtitle">Lorem ipsum dolor sit <span class="product-highlight">amet consectetuer</span>
+                    </h2>
+                </div>
+                <div class="product-content">
+                    <div class="product-carousel">
+                        <div class="product-carousel-wrapper">
+                            <img draggable="false" class="product-carousel-img" src="assets/product/carousel-1.jpg"
+                                alt="product-carousel">
+                            <img draggable="false" class="product-carousel-img" src="assets/product/carousel-2.jpg"
+                                alt="product-carousel">
+                            <img draggable="false" class="product-carousel-img" src="assets/product/carousel-1.jpg"
+                                alt="product-carousel">
+                            <img draggable="false" class="product-carousel-img" src="assets/product/carousel-2.jpg"
+                                alt="product-carousel">
+                            <img draggable="false" class="product-carousel-img" src="assets/product/carousel-1.jpg"
+                                alt="product-carousel">
+                        </div>
+                        <button class="product-carousel-button product-button-left">
+                            <img class="product-button-image" src="assets/product/button-left.svg" alt="arrow-left">
+                        </button>
+                        <button class="product-carousel-button product-button-right">
+                            <img class="product-button-image" src="assets/product/button-right.svg" alt="arrow-right">
+                        </button>
+                    </div>
+                    <ul class="product-info">
+                        <img draggable="false" class="product-model" src="assets/product/product-model.svg"
+                            alt="product-model">
+                        <p class="product-info-description">MENS WEAR</p>
+                        <p class="product-info-description">MENS WEAR</p>
+                        <p class="product-info-description product-info-active">SUPPLEMENTS</p>
+                        <p class="product-info-description">WOMENS WEAR</p>
+                        <p class="product-info-description">WOMENS WEAR</p>
+                    </ul>
+                    <button class="product-shop-button">
+                        <span class="product-shop-button-text">SHOP NOW</span>
+                    </button>
+                </div>
+            </section>
+            <section class="shop">
+                <div class="shop-grid">
+                    <div class="shop-item">
+                        <div class="shop-card">
+                            <div class="shop-item-badges">
+                                <span class="badge badge-discount">-10%</span>
+                                <span class="badge badge-new">New</span>
+                            </div>
+                            <img src="assets/shop/product-1.png" alt="Fat Burning Juice">
+                        </div>
+                        <div class="shop-item-rating">★★★★★</div>
+                        <div class="shop-item-price">
+                            <span class="current-price">$100.00</span>
+                            <span class="old-price">$110.00</span>
+                        </div>
+                    </div>
             </section>
         </main>
     </div>

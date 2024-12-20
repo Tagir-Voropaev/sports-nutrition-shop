@@ -3,6 +3,7 @@
     height: 42px;
 }
 .top-bar {
+    height: 100%;
     padding: 0 20px;
     max-width: 1280px;
     margin: 0 auto;
