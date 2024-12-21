@@ -1,0 +1,130 @@
+.transformations {
+    background-color: #000000;
+    max-width: 1440px;
+    position: relative;
+    margin-top: 120px;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+}
+
+.transformations-pictures {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.transformations-pictures-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #fff;
+}
+
+.transformations-pictures-highlight {
+    color: #DA8E00;
+}
+
+.transformations-pictures-images {
+    margin-top: 46px;
+}
+
+.transformations-pictures-images img {
+    width: 100%;
+}
+
+.transformations-videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.transformations-videos-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #fff;
+}
+
+.transformations-videos-highlight {
+    color: #DA8E00;
+}
+
+.transformations-videos-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 62px;
+    height: 264px;
+    gap: 40px;
+}
+.transformation-video{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.transformations-video-img-left {
+    object-fit: cover;
+    position: absolute;
+    background-color: #000000;
+    z-index: 100;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.transformations-video-img-right {
+    object-fit: cover;
+    position: absolute;
+    background-color: #000000;
+    z-index: 100;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+.transformations-video-player{
+    width: 100%;
+    
+    height: 100%;
+}
+
+.transformations-clients{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+}
+.transformations-client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 0 20px;
+}
+.transformations-name{
+    text-align: center;
+    font-size: 36px;
+    line-height: 120%;
+    font-weight: 700;
+    color: #DA8E00;
+}
+.transformations-number{
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 700;
+    color: #fff;
+}
+.transformations-message{
+    margin-top: 27px;
+    line-height: 209%;
+    font-style: italic;
+    color: #fff;
+    text-align: center;
+}

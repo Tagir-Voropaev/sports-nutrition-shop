@@ -1,0 +1,138 @@
+.stories-content {
+    padding: 40px;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.story-card {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+    position: relative;
+    padding: 40px;
+}
+.story-card-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 186px;
+    height: 223px;
+    z-index: -1;
+}
+
+.story-card-bg-inverted {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    width: 186px;
+    height: 223px;
+}
+.story-text {
+    flex: 1;
+}
+
+.story-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    line-height: 120%;
+    color: #2B2B2B;
+}
+
+.story-description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 24px;
+    color: #2B2B2B;
+}
+
+.story-button {
+    background-color: #FF6B00;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.story-button:hover {
+    background-color: #E65000;
+}
+
+.story-image {
+    flex: 1;
+}
+
+.story-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.story-card-inverted {
+    flex-direction: row-reverse;
+}
+@media (max-width: 768px) {
+    .story-card {
+        flex-direction: column;
+    }
+    
+    .story-image {
+        order: -1;
+    }
+}
+
+.story-shop-button{
+    user-select: none;
+    background: linear-gradient(180deg, #DA8E00 0%, #FFBD41 100%);
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    margin-top: 24px;
+}
+
+.story-shop-button-text {
+    position: absolute;
+    padding: 0;
+    box-sizing: border-box;
+    padding-top: 10px;
+    width: 150px;
+    height: 50px;
+    background: #ffffff00;
+    border: 2px solid #DA8E00;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    left: 4px;
+    top: -4px;
+}
+.story-shop-button-text:hover{
+    left: 0px;
+    top: 0px;
+}
+@media (max-width: 768px) {
+    .story-shop-button {
+        width: 120px;
+        height: 30px;
+    }
+
+    .story-shop-button-text {
+        width: 120px;
+        height: 30px;
+        font-size: 14px;
+    }
+}
+
+
